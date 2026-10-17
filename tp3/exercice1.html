@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp3</title>
+</head>
+<body>
+ <form>
+    <fieldset>
+        <legend>Client</legend>
+        <table>
+            <tr>
+                <td><label> civilite:</label></td> 
+                  <td><input type="radio" name="civilite" value="mlle"> mademoiselle</td>
+                  <td><input type="radio" name="civilite" value="mme"> madame</td>
+                  <td><input type="radio" name="civilite" value="mr" checked> monsieur </td> 
+            </tr>
+            <tr>
+                <td><label>nom/prenom</label></td> <td><input type="texte" name="nom"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">
+                <label>adresse :</label></td> <td><textarea name="" id=""></textarea></td>
+                
+            </tr>
+            <tr>
+                <td><label>No postal / Localite</label></td><td><input type="texte" name="cp"></td>
+                 <td><input type ="texte" name="localite" value="bizerte"></td>
+            </tr>
+            <tr>
+                <td> 
+                    <label>pays</label></td>
+                    <td><select name="choix">
+                        <option value="op1" selected> suisse</option>
+                        <option value ="op2">france</option>
+                        <option value ="op3">canada</option>
+                    </select></td>
+            
+            </tr>
+         <tr>
+            <td> <label> platforms</label></td>
+            <td><input type="checkbox" name="windows">windows</td>
+            <td><input type="checkbox" name="macintoch" checked>macintoch</td>
+           <td> <input type="checkbox" name="unix">unix</td>
+
+         </tr>
+         <tr>
+            <td><label> applications</label></td>
+           <td> <select name="choix" size="4">
+                        <option value="op1" selected> bureautique</option>
+                        <option value ="op2">dao</option>
+                        <option value ="op3">statistiques</option>
+                       <option value ="op4">sgbd</option>
+                 </select></td>
+         </tr>
+         </table>
+         </fieldset>
+         <input type="submit" value="valider">
+         <input type="reset" value="vider">
+         </form>
+         </body>
+         </html>
+
